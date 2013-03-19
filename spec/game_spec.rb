@@ -23,6 +23,14 @@ describe Game do
       it "3 cell" do
       assert_grid [[0],[0],[0]],
                   [[0],[0],[0]]
+      assert_grid [[1],[0],[0]],
+                  [[0],[0],[0]]
+      
+      assert_grid [[1],[1],[0]],
+                  [[0],[0],[0]]
+      assert_grid [[1],[1],[1]],
+                  [[0],[1],[0]]
+      
       end
 
   end
