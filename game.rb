@@ -2,7 +2,6 @@ class Game
   def initialize(grid)
    @init_grid=grid
    @grid_leng=grid.size
-
    init_grid 
   end
   def tick
